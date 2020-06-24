@@ -1,0 +1,230 @@
+/*Geral*/
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+a{
+    text-decoration: none;
+    color: #c3c3c3;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: whitesmoke
+}
+
+
+/*Menu superior*/
+
+nav#menutop ul {
+    background-color: #1d1d1f;
+    margin-top: -10px;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding: 5px;
+    padding-top: 5px;
+    text-align: right;
+    list-style-type: none;
+    height: 40px;
+}
+
+nav#menutop li {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+nav#menutop a {
+    text-decoration: none;
+    color: #c3c3c3;
+    font-size: 18px;
+    background-color: #1d1d1f;
+}
+
+nav#menutop a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+/*Menu Lateral Esquerda*/
+
+nav#menulateral {
+    float: left;
+    width: 240px;
+    height: 1850px;
+    background-color: #4d4b4b;
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    border-right: 4px solid #a3a3a3;
+}
+
+nav#menulateral ul {
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 22px;
+    margin-left: -10px;
+}
+
+nav#menulateral li {
+    padding-bottom: 15px;
+}
+
+nav#menulateral a {
+    text-decoration: none;
+    color: #c3c3c3;
+    font-size: 20px;
+}
+
+nav#menulateral a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+/*Centro*/
+
+section#artigos {
+    width: 800px;
+    position: relative;
+    top: 30px;
+    left: 600px;
+    text-align: left;
+    margin-left: -400px;
+    text-align: center;
+}
+
+article {
+    color: #11115a;
+    padding-left: 0px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+}
+
+article p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+article#art1 {
+    position: absolut;
+    top: -20px;
+    left: 150px;
+    width: 800px;
+}
+
+article#art2 {
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    width: 800px;
+}
+
+article#art3 {
+    position: absolute;
+    top: 1195px;
+    left: 150px;
+    width: 800px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+img#intcoisas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+img#app {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+img#linguagens {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+a.materias {
+    color: #242152;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.materias:visited {
+    color: #441772;
+}
+
+a.materias:hover {
+    color: #575757;
+    text-decoration: underline;
+}
+
+/*Lado Direito*/
+
+section#parceiros {
+    float: right;
+    width: 50px;
+    height: 100%;
+}
+
+img#tw {
+    border-radius: 50%;
+    position: fixed;
+    top: 60px;
+    right: 20px;
+}
+
+img#lk {
+    border-radius: 10px;
+    position: fixed;
+    top: 115px;
+    right: 20px;
+}
+
+img#ig {
+    position: fixed;
+    border-radius: 5px;
+    top: 173px;
+    right: 20px;
+}
+
+img#fb {
+    border-radius: 5px;
+    position: fixed;
+    top: 230px;
+    right: 20px;
+}
+
+/*Rodpé*/
+
+footer {
+    color: #c3c3c3;
+    font-size: 12pt;
+    background-color: #1d1d1f;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    clear: both;
+    margin-left: -8px;
+    margin-right: -8px;
+    position:relative;
+    bottom: -8px;
+}
+
+        
+    /*position: relative;
+    top: 1850px;
+    left: -10px;
+    width: 1310px;
+    
+    */
+
+
