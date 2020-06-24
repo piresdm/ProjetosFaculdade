@@ -6,7 +6,7 @@ Sinta-se à vontade para explorá-los, espero que goste!
 
 # College Projects
 
-Here I am posting the projects I've been creating during my college degree
+Here I am posting the projects I've been creating during my college degree.
 
 Feel free to explore it, I hope you enjoy!
 
